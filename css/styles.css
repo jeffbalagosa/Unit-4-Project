@@ -706,7 +706,7 @@ a {
   max-height: 100%;
 }
 
-/* line 40, ../../../Unit-4-Project/scss/component/_grid.scss */
+/* line 38, ../../../Unit-4-Project/scss/component/_grid.scss */
 .img-frame {
   display: block;
   margin-left: auto;
@@ -717,7 +717,7 @@ a {
   border: 1px solid #ccc;
 }
 
-/* line 50, ../../../Unit-4-Project/scss/component/_grid.scss */
+/* line 46, ../../../Unit-4-Project/scss/component/_grid.scss */
 .img-logo {
   display: block;
   margin-left: auto;
@@ -728,101 +728,101 @@ a {
 /*              Media Queries                    */
 /* ============================================= */
 @media (min-width: 768px) {
-  /* line 61, ../../../Unit-4-Project/scss/component/_grid.scss */
+  /* line 55, ../../../Unit-4-Project/scss/component/_grid.scss */
   .container {
     max-width: 1400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 68, ../../../Unit-4-Project/scss/component/_grid.scss */
+  /* line 62, ../../../Unit-4-Project/scss/component/_grid.scss */
   .centered {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 74, ../../../Unit-4-Project/scss/component/_grid.scss */
+  /* line 68, ../../../Unit-4-Project/scss/component/_grid.scss */
   .row {
     flex-direction: row;
   }
-  /* line 78, ../../../Unit-4-Project/scss/component/_grid.scss */
+  /* line 72, ../../../Unit-4-Project/scss/component/_grid.scss */
   [class^=col] {
     display: flex;
     justify-content: center;
     margin-top: 0;
     align-items: center;
   }
-  /* line 85, ../../../Unit-4-Project/scss/component/_grid.scss */
+  /* line 79, ../../../Unit-4-Project/scss/component/_grid.scss */
   [class^=col] + [class^=col] {
     margin-left: 10px;
   }
-  /* line 89, ../../../Unit-4-Project/scss/component/_grid.scss */
+  /* line 83, ../../../Unit-4-Project/scss/component/_grid.scss */
   .col-1 {
     flex-basis: 8.33%;
   }
-  /* line 93, ../../../Unit-4-Project/scss/component/_grid.scss */
+  /* line 87, ../../../Unit-4-Project/scss/component/_grid.scss */
   .col-2 {
     flex-basis: 16.67%;
   }
-  /* line 97, ../../../Unit-4-Project/scss/component/_grid.scss */
+  /* line 91, ../../../Unit-4-Project/scss/component/_grid.scss */
   .col-3 {
     flex-basis: 25.00%;
   }
-  /* line 101, ../../../Unit-4-Project/scss/component/_grid.scss */
+  /* line 95, ../../../Unit-4-Project/scss/component/_grid.scss */
   .col-4 {
     flex-basis: 33.33%;
   }
-  /* line 105, ../../../Unit-4-Project/scss/component/_grid.scss */
+  /* line 99, ../../../Unit-4-Project/scss/component/_grid.scss */
   .col-5 {
     flex-basis: 41.67%;
   }
-  /* line 109, ../../../Unit-4-Project/scss/component/_grid.scss */
+  /* line 103, ../../../Unit-4-Project/scss/component/_grid.scss */
   .col-6 {
     flex-basis: 50.00%;
   }
-  /* line 113, ../../../Unit-4-Project/scss/component/_grid.scss */
+  /* line 107, ../../../Unit-4-Project/scss/component/_grid.scss */
   .col-7 {
     flex-basis: 58.33%;
   }
-  /* line 117, ../../../Unit-4-Project/scss/component/_grid.scss */
+  /* line 111, ../../../Unit-4-Project/scss/component/_grid.scss */
   .col-8 {
     flex-basis: 66.67%;
   }
-  /* line 121, ../../../Unit-4-Project/scss/component/_grid.scss */
+  /* line 115, ../../../Unit-4-Project/scss/component/_grid.scss */
   .col-9 {
     flex-basis: 75.00%;
   }
-  /* line 125, ../../../Unit-4-Project/scss/component/_grid.scss */
+  /* line 119, ../../../Unit-4-Project/scss/component/_grid.scss */
   .col-10 {
     flex-basis: 83.33%;
   }
-  /* line 129, ../../../Unit-4-Project/scss/component/_grid.scss */
+  /* line 123, ../../../Unit-4-Project/scss/component/_grid.scss */
   .col-11 {
     flex-basis: 91.67%;
   }
-  /* line 133, ../../../Unit-4-Project/scss/component/_grid.scss */
+  /* line 127, ../../../Unit-4-Project/scss/component/_grid.scss */
   .col-12 {
     flex-basis: 100%;
   }
-  /* line 137, ../../../Unit-4-Project/scss/component/_grid.scss */
+  /* line 131, ../../../Unit-4-Project/scss/component/_grid.scss */
   .nav {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
   }
-  /* line 143, ../../../Unit-4-Project/scss/component/_grid.scss */
+  /* line 137, ../../../Unit-4-Project/scss/component/_grid.scss */
   .nav-link {
     flex-basis: 100px;
   }
-  /* line 147, ../../../Unit-4-Project/scss/component/_grid.scss */
+  /* line 141, ../../../Unit-4-Project/scss/component/_grid.scss */
   .btn {
     padding: 10px 30px;
   }
-  /* line 151, ../../../Unit-4-Project/scss/component/_grid.scss */
+  /* line 145, ../../../Unit-4-Project/scss/component/_grid.scss */
   .btn + .btn {
     margin-left: 10px;
   }
-  /* line 155, ../../../Unit-4-Project/scss/component/_grid.scss */
+  /* line 149, ../../../Unit-4-Project/scss/component/_grid.scss */
   .logo {
     margin-left: initial;
     margin-right: initial;

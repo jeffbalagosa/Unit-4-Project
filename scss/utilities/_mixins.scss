@@ -1,0 +1,9 @@
+// ======================================
+//  Mixins
+// ======================================
+
+@mixin cntr-itm {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
