@@ -493,6 +493,33 @@ template {
 }
 
 /* ============================================= */
+/*              Navigation                       */
+/* ============================================= */
+/* line 5, ../../../Unit-4-Project/scss/component/_navigation.scss */
+.nav {
+  padding-left: 0;
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 12, ../../../Unit-4-Project/scss/component/_navigation.scss */
+.nav-link {
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px 0;
+  display: block;
+  width: 100%;
+  transition: background-color .2s ease-in-out, color .2s ease-in-out;
+}
+
+/* line 23, ../../../Unit-4-Project/scss/component/_navigation.scss */
+.nav-link:hover {
+  color: #fff;
+  background-color: #58e1c1;
+}
+
+/* ============================================= */
 /*              Base styles                      */
 /* ============================================= */
 /* line 13, ../../../Unit-4-Project/scss/styles.scss */
@@ -513,36 +540,9 @@ a {
 }
 
 /* ============================================= */
-/*              Navigation                       */
-/* ============================================= */
-/* line 38, ../../../Unit-4-Project/scss/styles.scss */
-.nav {
-  padding-left: 0;
-  flex-basis: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-/* line 45, ../../../Unit-4-Project/scss/styles.scss */
-.nav-link {
-  text-align: center;
-  border-radius: 5px;
-  padding: 10px 0;
-  display: block;
-  width: 100%;
-  transition: background-color .2s ease-in-out,  color .2s ease-in-out;
-}
-
-/* line 56, ../../../Unit-4-Project/scss/styles.scss */
-.nav-link:hover {
-  color: #fff;
-  background-color: #58e1c1;
-}
-
-/* ============================================= */
 /*              Buttons                          */
 /* ============================================= */
-/* line 66, ../../../Unit-4-Project/scss/styles.scss */
+/* line 34, ../../../Unit-4-Project/scss/styles.scss */
 .btn {
   margin-top: 15px;
   width: 100%;
@@ -553,27 +553,27 @@ a {
   border-radius: 5px;
 }
 
-/* line 76, ../../../Unit-4-Project/scss/styles.scss */
+/* line 44, ../../../Unit-4-Project/scss/styles.scss */
 .default {
   background-color: #51ddfc;
 }
 
-/* line 80, ../../../Unit-4-Project/scss/styles.scss */
+/* line 48, ../../../Unit-4-Project/scss/styles.scss */
 .error {
   background-color: #e4757a;
 }
 
-/* line 84, ../../../Unit-4-Project/scss/styles.scss */
+/* line 52, ../../../Unit-4-Project/scss/styles.scss */
 .info {
   background-color: #927bc1;
 }
 
-/* line 88, ../../../Unit-4-Project/scss/styles.scss */
+/* line 56, ../../../Unit-4-Project/scss/styles.scss */
 .success {
   background-color: #63cc82;
 }
 
-/* line 92, ../../../Unit-4-Project/scss/styles.scss */
+/* line 60, ../../../Unit-4-Project/scss/styles.scss */
 .warning {
   background-color: #fd7856;
 }
@@ -581,12 +581,12 @@ a {
 /* ============================================= */
 /*              Forms                            */
 /* ============================================= */
-/* line 101, ../../../Unit-4-Project/scss/styles.scss */
+/* line 69, ../../../Unit-4-Project/scss/styles.scss */
 .form {
   flex-basis: 100%;
 }
 
-/* line 105, ../../../Unit-4-Project/scss/styles.scss */
+/* line 73, ../../../Unit-4-Project/scss/styles.scss */
 .input {
   display: block;
   width: 94%;
@@ -596,7 +596,7 @@ a {
   border-bottom: 5px solid #58e1c1;
 }
 
-/* line 114, ../../../Unit-4-Project/scss/styles.scss */
+/* line 82, ../../../Unit-4-Project/scss/styles.scss */
 .hidden {
   position: absolute;
   left: -10000px;
@@ -609,7 +609,7 @@ a {
 /* ============================================= */
 /*              Images                           */
 /* ============================================= */
-/* line 128, ../../../Unit-4-Project/scss/styles.scss */
+/* line 96, ../../../Unit-4-Project/scss/styles.scss */
 .img-avatar {
   display: block;
   margin-left: auto;
@@ -619,7 +619,7 @@ a {
   max-height: 100%;
 }
 
-/* line 137, ../../../Unit-4-Project/scss/styles.scss */
+/* line 105, ../../../Unit-4-Project/scss/styles.scss */
 .img-frame {
   display: block;
   margin-left: auto;
@@ -630,7 +630,7 @@ a {
   border: 1px solid #ccc;
 }
 
-/* line 147, ../../../Unit-4-Project/scss/styles.scss */
+/* line 115, ../../../Unit-4-Project/scss/styles.scss */
 .img-logo {
   display: block;
   margin-left: auto;
@@ -641,101 +641,101 @@ a {
 /*              Media Queries                    */
 /* ============================================= */
 @media (min-width: 768px) {
-  /* line 159, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 127, ../../../Unit-4-Project/scss/styles.scss */
   .container {
     max-width: 1400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 166, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 134, ../../../Unit-4-Project/scss/styles.scss */
   .centered {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 172, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 140, ../../../Unit-4-Project/scss/styles.scss */
   .row {
     flex-direction: row;
   }
-  /* line 176, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 144, ../../../Unit-4-Project/scss/styles.scss */
   [class^=col] {
     display: flex;
     justify-content: center;
     margin-top: 0;
     align-items: center;
   }
-  /* line 183, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 151, ../../../Unit-4-Project/scss/styles.scss */
   [class^=col] + [class^=col] {
     margin-left: 10px;
   }
-  /* line 187, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 155, ../../../Unit-4-Project/scss/styles.scss */
   .col-1 {
     flex-basis: 8.33%;
   }
-  /* line 191, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 159, ../../../Unit-4-Project/scss/styles.scss */
   .col-2 {
     flex-basis: 16.67%;
   }
-  /* line 195, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 163, ../../../Unit-4-Project/scss/styles.scss */
   .col-3 {
     flex-basis: 25.00%;
   }
-  /* line 199, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 167, ../../../Unit-4-Project/scss/styles.scss */
   .col-4 {
     flex-basis: 33.33%;
   }
-  /* line 203, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 171, ../../../Unit-4-Project/scss/styles.scss */
   .col-5 {
     flex-basis: 41.67%;
   }
-  /* line 207, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 175, ../../../Unit-4-Project/scss/styles.scss */
   .col-6 {
     flex-basis: 50.00%;
   }
-  /* line 211, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 179, ../../../Unit-4-Project/scss/styles.scss */
   .col-7 {
     flex-basis: 58.33%;
   }
-  /* line 215, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 183, ../../../Unit-4-Project/scss/styles.scss */
   .col-8 {
     flex-basis: 66.67%;
   }
-  /* line 219, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 187, ../../../Unit-4-Project/scss/styles.scss */
   .col-9 {
     flex-basis: 75.00%;
   }
-  /* line 223, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 191, ../../../Unit-4-Project/scss/styles.scss */
   .col-10 {
     flex-basis: 83.33%;
   }
-  /* line 227, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 195, ../../../Unit-4-Project/scss/styles.scss */
   .col-11 {
     flex-basis: 91.67%;
   }
-  /* line 231, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 199, ../../../Unit-4-Project/scss/styles.scss */
   .col-12 {
     flex-basis: 100%;
   }
-  /* line 235, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 203, ../../../Unit-4-Project/scss/styles.scss */
   .nav {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
   }
-  /* line 241, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 209, ../../../Unit-4-Project/scss/styles.scss */
   .nav-link {
     flex-basis: 100px;
   }
-  /* line 245, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 213, ../../../Unit-4-Project/scss/styles.scss */
   .btn {
     padding: 10px 30px;
   }
-  /* line 249, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 217, ../../../Unit-4-Project/scss/styles.scss */
   .btn + .btn {
     margin-left: 10px;
   }
-  /* line 253, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 221, ../../../Unit-4-Project/scss/styles.scss */
   .logo {
     margin-left: initial;
     margin-right: initial;
