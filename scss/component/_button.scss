@@ -67,6 +67,7 @@
         background-color: map-get($btn-clr, 'tc-#{$i}');
 
         &:hover {
+            color: $color-primary;
             background-color: lighten(map-get($btn-clr, 'tc-#{$i}'), 15%);
         }
     }
