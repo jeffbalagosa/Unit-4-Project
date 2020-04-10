@@ -1,35 +1,3 @@
-/* ============================================= */
-/*              Typography                       */
-/* ============================================= */
-/* line 5, ../../../Unit-4-Project/scss/base/_typography.scss */
-.headline-primary {
-  color: #58e1c1;
-  margin-left: 10px;
-}
-
-/* line 10, ../../../Unit-4-Project/scss/base/_typography.scss */
-.headline-secondary {
-  font-weight: 300;
-  color: #777;
-}
-
-/* line 15, ../../../Unit-4-Project/scss/base/_typography.scss */
-.link {
-  color: #51ddfc;
-  font-weight: 700;
-}
-
-/* line 20, ../../../Unit-4-Project/scss/base/_typography.scss */
-.blockquote {
-  font-size: 1.5em;
-  font-weight: 300;
-  font-style: italic;
-  margin-left: 20px;
-  padding-left: 20px;
-  border-left: 8px solid #58e1c1;
-  border-radius: 5px;
-}
-
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -401,6 +369,38 @@ template {
 /* line 347, ../../../Unit-4-Project/scss/base/_normalize.scss */
 [hidden] {
   display: none;
+}
+
+/* ============================================= */
+/*              Typography                       */
+/* ============================================= */
+/* line 5, ../../../Unit-4-Project/scss/base/_typography.scss */
+.headline-primary {
+  color: #58e1c1;
+  margin-left: 10px;
+}
+
+/* line 10, ../../../Unit-4-Project/scss/base/_typography.scss */
+.headline-secondary {
+  font-weight: 300;
+  color: #777;
+}
+
+/* line 15, ../../../Unit-4-Project/scss/base/_typography.scss */
+.link {
+  color: #51ddfc;
+  font-weight: 700;
+}
+
+/* line 20, ../../../Unit-4-Project/scss/base/_typography.scss */
+.blockquote {
+  font-size: 1.5em;
+  font-weight: 300;
+  font-style: italic;
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 8px solid #58e1c1;
+  border-radius: 5px;
 }
 
 /* ============================================= */
