@@ -9,7 +9,7 @@ $color-text: #777;
 $color-link: #51ddfc;
 $color-accent: #fff;
 
-// Button Colors
+// Button Colors Map
 $btn-clr: (
     'def': #58e1c1,
     'err': #e4757a,
@@ -28,6 +28,22 @@ $btn-clr: (
     'tc-10': #63cc82,
     'tc-11': #51ddfc,
     'tc-12': #80e8d1,
+);
+
+// Flex Basis Map
+$flx-bs: (
+    'c-1': 8.33%,
+    'c-2': 8.33%,
+    'c-3': 8.33%,
+    'c-4': 8.33%,
+    'c-5': 8.33%,
+    'c-6': 8.33%,
+    'c-7': 8.33%,
+    'c-8': 8.33%,
+    'c-9': 8.33%,
+    'c-10': 8.33%,
+    'c-11': 8.33%,
+    'c-12': 8.33%,
 );
 
 // Breakpoint
