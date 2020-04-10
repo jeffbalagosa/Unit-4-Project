@@ -13,21 +13,21 @@
 }
 
 .default {
-    background-color: #58e1c1;
+    background-color: $colr-btn-def;
 }
 
 .error {
-    background-color: #e4757a;
+    background-color: $colr-btn-err;
 }
 
 .info {
-    background-color: #927bc1;
+    background-color: $colr-btn-inf;
 }
 
 .success {
-    background-color: #80a08a;
+    background-color: $colr-btn-suc;
 }
 
 .warning {
-    background-color: #fd7856;
+    background-color: $colr-btn-war;
 }
