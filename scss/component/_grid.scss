@@ -21,7 +21,7 @@
 }
 
 .theme.col-1 {
-    background-color: #927bc1;
+    background-color: $colr-btn-inf;
 }
 
 .theme.col-2 {
@@ -57,11 +57,11 @@
 }
 
 .theme.col-10 {
-    background-color: #63cc82;
+    background-color: $colr-btn-suc;
 }
 
 .theme.col-11 {
-    background-color: #51ddfc;
+    background-color: $colr-btn-def;
 }
 
 .theme.col-12 {
