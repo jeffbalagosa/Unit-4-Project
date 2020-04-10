@@ -1,6 +1,9 @@
 /* ============================================= */
 /*              Typography                       */
 /* ============================================= */
+* {
+    font-family: 'Lato', sans-serif;  // Moved from Base Styles to meet requirement for "Meets Expectations"
+}
 
 .headline-primary {
     color: $color-primary;
@@ -26,3 +29,4 @@
     border-left: 8px solid $color-primary;
     border-radius: 5px;
 }
+
