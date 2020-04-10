@@ -4,12 +4,21 @@
 
 .container {
   padding: 0 10px;
+
+  @media (min-width: $breakpoint) {
+    max-width: 1400px;
+    @include cntr-itm;
+  }
 }
 
 .row {
   display: flex;
   flex-direction: column;
   padding: 1em 10px;
+
+  @media (min-width: $breakpoint) {
+    flex-direction: row;
+  }
 }
 
 [class^=col] {
@@ -48,21 +57,12 @@
 }
 
 /* ============================================= */
-/*              Media Queries                    */
+/*            Un-nested Media Queries            */
 /* ============================================= */
 @media (min-width: $breakpoint) {
 
-  .container {
-    max-width: 1400px;
-    @include cntr-itm;
-  }
-
   .centered {
     @include cntr-itm;
-  }
-
-  .row {
-    flex-direction: row;
   }
 
   [class^=col] {
@@ -78,22 +78,8 @@
 
   @for $i from 1 through 12 {
     .col-#{$i} {
-        flex-basis: map-get($flx-bs, 'c-#{$i}');
+      flex-basis: map-get($flx-bs, 'c-#{$i}');
     }
-}
-
-  .nav {
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-  }
-
-  .nav-link {
-    flex-basis: 100px;
-  }
-
-  .btn {
-    padding: 10px 30px;
   }
 
   .btn+.btn {
