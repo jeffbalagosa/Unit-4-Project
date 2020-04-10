@@ -372,6 +372,38 @@ template {
 }
 
 /* ============================================= */
+/*              Typography                       */
+/* ============================================= */
+/* line 5, ../../../Unit-4-Project/scss/base/_typography.scss */
+.headline-primary {
+  color: #58e1c1;
+  margin-left: 10px;
+}
+
+/* line 10, ../../../Unit-4-Project/scss/base/_typography.scss */
+.headline-secondary {
+  font-weight: 300;
+  color: #777;
+}
+
+/* line 15, ../../../Unit-4-Project/scss/base/_typography.scss */
+.link {
+  color: #51ddfc;
+  font-weight: 700;
+}
+
+/* line 20, ../../../Unit-4-Project/scss/base/_typography.scss */
+.blockquote {
+  font-size: 1.5em;
+  font-weight: 300;
+  font-style: italic;
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 8px solid #58e1c1;
+  border-radius: 5px;
+}
+
+/* ============================================= */
 /*              Base styles                      */
 /* ============================================= */
 /* line 13, ../../../Unit-4-Project/scss/styles.scss */
@@ -392,53 +424,21 @@ a {
 }
 
 /* ============================================= */
-/*              Typography                       */
-/* ============================================= */
-/* line 32, ../../../Unit-4-Project/scss/styles.scss */
-.headline-primary {
-  color: #58e1c1;
-  margin-left: 10px;
-}
-
-/* line 37, ../../../Unit-4-Project/scss/styles.scss */
-.headline-secondary {
-  font-weight: 300;
-  color: #777;
-}
-
-/* line 42, ../../../Unit-4-Project/scss/styles.scss */
-.link {
-  color: #51ddfc;
-  font-weight: 700;
-}
-
-/* line 47, ../../../Unit-4-Project/scss/styles.scss */
-.blockquote {
-  font-size: 1.5em;
-  font-weight: 300;
-  font-style: italic;
-  margin-left: 20px;
-  padding-left: 20px;
-  border-left: 8px solid #58e1c1;
-  border-radius: 5px;
-}
-
-/* ============================================= */
 /*              Grid System                      */
 /* ============================================= */
-/* line 62, ../../../Unit-4-Project/scss/styles.scss */
+/* line 35, ../../../Unit-4-Project/scss/styles.scss */
 .container {
   padding: 0 10px;
 }
 
-/* line 66, ../../../Unit-4-Project/scss/styles.scss */
+/* line 39, ../../../Unit-4-Project/scss/styles.scss */
 .row {
   display: flex;
   flex-direction: column;
   padding: 1em 10px;
 }
 
-/* line 72, ../../../Unit-4-Project/scss/styles.scss */
+/* line 45, ../../../Unit-4-Project/scss/styles.scss */
 [class^=col] {
   margin-top: 10px;
   flex-basis: 100%;
@@ -447,67 +447,67 @@ a {
   border-radius: 5px;
 }
 
-/* line 80, ../../../Unit-4-Project/scss/styles.scss */
+/* line 53, ../../../Unit-4-Project/scss/styles.scss */
 .theme.col-1 {
   background-color: #927bc1;
 }
 
-/* line 84, ../../../Unit-4-Project/scss/styles.scss */
+/* line 57, ../../../Unit-4-Project/scss/styles.scss */
 .theme.col-2 {
   background-color: #fd7856;
 }
 
-/* line 88, ../../../Unit-4-Project/scss/styles.scss */
+/* line 61, ../../../Unit-4-Project/scss/styles.scss */
 .theme.col-3 {
   background-color: #deb2ee;
 }
 
-/* line 92, ../../../Unit-4-Project/scss/styles.scss */
+/* line 65, ../../../Unit-4-Project/scss/styles.scss */
 .theme.col-4 {
   background-color: #7ee6fd;
 }
 
-/* line 96, ../../../Unit-4-Project/scss/styles.scss */
+/* line 69, ../../../Unit-4-Project/scss/styles.scss */
 .theme.col-5 {
   background-color: #88d9a0;
 }
 
-/* line 100, ../../../Unit-4-Project/scss/styles.scss */
+/* line 73, ../../../Unit-4-Project/scss/styles.scss */
 .theme.col-6 {
   background-color: #4da2bb;
 }
 
-/* line 104, ../../../Unit-4-Project/scss/styles.scss */
+/* line 77, ../../../Unit-4-Project/scss/styles.scss */
 .theme.col-7 {
   background-color: #ec9fa3;
 }
 
-/* line 108, ../../../Unit-4-Project/scss/styles.scss */
+/* line 81, ../../../Unit-4-Project/scss/styles.scss */
 .theme.col-8 {
   background-color: #fd9f85;
 }
 
-/* line 112, ../../../Unit-4-Project/scss/styles.scss */
+/* line 85, ../../../Unit-4-Project/scss/styles.scss */
 .theme.col-9 {
   background-color: #e4757a;
 }
 
-/* line 116, ../../../Unit-4-Project/scss/styles.scss */
+/* line 89, ../../../Unit-4-Project/scss/styles.scss */
 .theme.col-10 {
   background-color: #63cc82;
 }
 
-/* line 120, ../../../Unit-4-Project/scss/styles.scss */
+/* line 93, ../../../Unit-4-Project/scss/styles.scss */
 .theme.col-11 {
   background-color: #51ddfc;
 }
 
-/* line 124, ../../../Unit-4-Project/scss/styles.scss */
+/* line 97, ../../../Unit-4-Project/scss/styles.scss */
 .theme.col-12 {
   background-color: #80e8d1;
 }
 
-/* line 128, ../../../Unit-4-Project/scss/styles.scss */
+/* line 101, ../../../Unit-4-Project/scss/styles.scss */
 .card {
   flex-basis: 100%;
 }
@@ -515,7 +515,7 @@ a {
 /* ============================================= */
 /*              Navigation                       */
 /* ============================================= */
-/* line 137, ../../../Unit-4-Project/scss/styles.scss */
+/* line 110, ../../../Unit-4-Project/scss/styles.scss */
 .nav {
   padding-left: 0;
   flex-basis: 100%;
@@ -523,7 +523,7 @@ a {
   flex-direction: column;
 }
 
-/* line 144, ../../../Unit-4-Project/scss/styles.scss */
+/* line 117, ../../../Unit-4-Project/scss/styles.scss */
 .nav-link {
   text-align: center;
   border-radius: 5px;
@@ -533,7 +533,7 @@ a {
   transition: background-color .2s ease-in-out,  color .2s ease-in-out;
 }
 
-/* line 155, ../../../Unit-4-Project/scss/styles.scss */
+/* line 128, ../../../Unit-4-Project/scss/styles.scss */
 .nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
@@ -542,7 +542,7 @@ a {
 /* ============================================= */
 /*              Buttons                          */
 /* ============================================= */
-/* line 165, ../../../Unit-4-Project/scss/styles.scss */
+/* line 138, ../../../Unit-4-Project/scss/styles.scss */
 .btn {
   margin-top: 15px;
   width: 100%;
@@ -553,27 +553,27 @@ a {
   border-radius: 5px;
 }
 
-/* line 175, ../../../Unit-4-Project/scss/styles.scss */
+/* line 148, ../../../Unit-4-Project/scss/styles.scss */
 .default {
   background-color: #51ddfc;
 }
 
-/* line 179, ../../../Unit-4-Project/scss/styles.scss */
+/* line 152, ../../../Unit-4-Project/scss/styles.scss */
 .error {
   background-color: #e4757a;
 }
 
-/* line 183, ../../../Unit-4-Project/scss/styles.scss */
+/* line 156, ../../../Unit-4-Project/scss/styles.scss */
 .info {
   background-color: #927bc1;
 }
 
-/* line 187, ../../../Unit-4-Project/scss/styles.scss */
+/* line 160, ../../../Unit-4-Project/scss/styles.scss */
 .success {
   background-color: #63cc82;
 }
 
-/* line 191, ../../../Unit-4-Project/scss/styles.scss */
+/* line 164, ../../../Unit-4-Project/scss/styles.scss */
 .warning {
   background-color: #fd7856;
 }
@@ -581,12 +581,12 @@ a {
 /* ============================================= */
 /*              Forms                            */
 /* ============================================= */
-/* line 200, ../../../Unit-4-Project/scss/styles.scss */
+/* line 173, ../../../Unit-4-Project/scss/styles.scss */
 .form {
   flex-basis: 100%;
 }
 
-/* line 204, ../../../Unit-4-Project/scss/styles.scss */
+/* line 177, ../../../Unit-4-Project/scss/styles.scss */
 .input {
   display: block;
   width: 94%;
@@ -596,7 +596,7 @@ a {
   border-bottom: 5px solid #58e1c1;
 }
 
-/* line 213, ../../../Unit-4-Project/scss/styles.scss */
+/* line 186, ../../../Unit-4-Project/scss/styles.scss */
 .hidden {
   position: absolute;
   left: -10000px;
@@ -609,7 +609,7 @@ a {
 /* ============================================= */
 /*              Images                           */
 /* ============================================= */
-/* line 227, ../../../Unit-4-Project/scss/styles.scss */
+/* line 200, ../../../Unit-4-Project/scss/styles.scss */
 .img-avatar {
   display: block;
   margin-left: auto;
@@ -619,7 +619,7 @@ a {
   max-height: 100%;
 }
 
-/* line 236, ../../../Unit-4-Project/scss/styles.scss */
+/* line 209, ../../../Unit-4-Project/scss/styles.scss */
 .img-frame {
   display: block;
   margin-left: auto;
@@ -630,7 +630,7 @@ a {
   border: 1px solid #ccc;
 }
 
-/* line 246, ../../../Unit-4-Project/scss/styles.scss */
+/* line 219, ../../../Unit-4-Project/scss/styles.scss */
 .img-logo {
   display: block;
   margin-left: auto;
@@ -641,101 +641,101 @@ a {
 /*              Media Queries                    */
 /* ============================================= */
 @media (min-width: 768px) {
-  /* line 258, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 231, ../../../Unit-4-Project/scss/styles.scss */
   .container {
     max-width: 1400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 265, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 238, ../../../Unit-4-Project/scss/styles.scss */
   .centered {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 271, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 244, ../../../Unit-4-Project/scss/styles.scss */
   .row {
     flex-direction: row;
   }
-  /* line 275, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 248, ../../../Unit-4-Project/scss/styles.scss */
   [class^=col] {
     display: flex;
     justify-content: center;
     margin-top: 0;
     align-items: center;
   }
-  /* line 282, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 255, ../../../Unit-4-Project/scss/styles.scss */
   [class^=col] + [class^=col] {
     margin-left: 10px;
   }
-  /* line 286, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 259, ../../../Unit-4-Project/scss/styles.scss */
   .col-1 {
     flex-basis: 8.33%;
   }
-  /* line 290, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 263, ../../../Unit-4-Project/scss/styles.scss */
   .col-2 {
     flex-basis: 16.67%;
   }
-  /* line 294, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 267, ../../../Unit-4-Project/scss/styles.scss */
   .col-3 {
     flex-basis: 25.00%;
   }
-  /* line 298, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 271, ../../../Unit-4-Project/scss/styles.scss */
   .col-4 {
     flex-basis: 33.33%;
   }
-  /* line 302, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 275, ../../../Unit-4-Project/scss/styles.scss */
   .col-5 {
     flex-basis: 41.67%;
   }
-  /* line 306, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 279, ../../../Unit-4-Project/scss/styles.scss */
   .col-6 {
     flex-basis: 50.00%;
   }
-  /* line 310, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 283, ../../../Unit-4-Project/scss/styles.scss */
   .col-7 {
     flex-basis: 58.33%;
   }
-  /* line 314, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 287, ../../../Unit-4-Project/scss/styles.scss */
   .col-8 {
     flex-basis: 66.67%;
   }
-  /* line 318, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 291, ../../../Unit-4-Project/scss/styles.scss */
   .col-9 {
     flex-basis: 75.00%;
   }
-  /* line 322, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 295, ../../../Unit-4-Project/scss/styles.scss */
   .col-10 {
     flex-basis: 83.33%;
   }
-  /* line 326, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 299, ../../../Unit-4-Project/scss/styles.scss */
   .col-11 {
     flex-basis: 91.67%;
   }
-  /* line 330, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 303, ../../../Unit-4-Project/scss/styles.scss */
   .col-12 {
     flex-basis: 100%;
   }
-  /* line 334, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 307, ../../../Unit-4-Project/scss/styles.scss */
   .nav {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
   }
-  /* line 340, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 313, ../../../Unit-4-Project/scss/styles.scss */
   .nav-link {
     flex-basis: 100px;
   }
-  /* line 344, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 317, ../../../Unit-4-Project/scss/styles.scss */
   .btn {
     padding: 10px 30px;
   }
-  /* line 348, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 321, ../../../Unit-4-Project/scss/styles.scss */
   .btn + .btn {
     margin-left: 10px;
   }
-  /* line 352, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 325, ../../../Unit-4-Project/scss/styles.scss */
   .logo {
     margin-left: initial;
     margin-right: initial;
