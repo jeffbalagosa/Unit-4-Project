@@ -515,7 +515,7 @@ template {
 
 /* line 23, ../../../Unit-4-Project/scss/component/_navigation.scss */
 .nav-link:hover {
-  color: #fff;
+  color: white;
   background-color: #58e1c1;
 }
 

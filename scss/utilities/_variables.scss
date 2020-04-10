@@ -4,6 +4,7 @@
 
 // Site Theme Colors
 $color-primary: #58e1c1;
+$color-primary-lt: lighten($color-primary, 45%); // for "Exceeds" grade in the design category
 $color-secondary: #51ddfc;
 $color-text: #777;
 $color-accent: #fff;
