@@ -404,6 +404,95 @@ template {
 }
 
 /* ============================================= */
+/*              Grid System                      */
+/* ============================================= */
+/* line 5, ../../../Unit-4-Project/scss/component/_grid.scss */
+.container {
+  padding: 0 10px;
+}
+
+/* line 9, ../../../Unit-4-Project/scss/component/_grid.scss */
+.row {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 10px;
+}
+
+/* line 15, ../../../Unit-4-Project/scss/component/_grid.scss */
+[class^=col] {
+  margin-top: 10px;
+  flex-basis: 100%;
+  min-height: 25px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* line 23, ../../../Unit-4-Project/scss/component/_grid.scss */
+.theme.col-1 {
+  background-color: #927bc1;
+}
+
+/* line 27, ../../../Unit-4-Project/scss/component/_grid.scss */
+.theme.col-2 {
+  background-color: #fd7856;
+}
+
+/* line 31, ../../../Unit-4-Project/scss/component/_grid.scss */
+.theme.col-3 {
+  background-color: #deb2ee;
+}
+
+/* line 35, ../../../Unit-4-Project/scss/component/_grid.scss */
+.theme.col-4 {
+  background-color: #7ee6fd;
+}
+
+/* line 39, ../../../Unit-4-Project/scss/component/_grid.scss */
+.theme.col-5 {
+  background-color: #88d9a0;
+}
+
+/* line 43, ../../../Unit-4-Project/scss/component/_grid.scss */
+.theme.col-6 {
+  background-color: #4da2bb;
+}
+
+/* line 47, ../../../Unit-4-Project/scss/component/_grid.scss */
+.theme.col-7 {
+  background-color: #ec9fa3;
+}
+
+/* line 51, ../../../Unit-4-Project/scss/component/_grid.scss */
+.theme.col-8 {
+  background-color: #fd9f85;
+}
+
+/* line 55, ../../../Unit-4-Project/scss/component/_grid.scss */
+.theme.col-9 {
+  background-color: #e4757a;
+}
+
+/* line 59, ../../../Unit-4-Project/scss/component/_grid.scss */
+.theme.col-10 {
+  background-color: #63cc82;
+}
+
+/* line 63, ../../../Unit-4-Project/scss/component/_grid.scss */
+.theme.col-11 {
+  background-color: #51ddfc;
+}
+
+/* line 67, ../../../Unit-4-Project/scss/component/_grid.scss */
+.theme.col-12 {
+  background-color: #80e8d1;
+}
+
+/* line 71, ../../../Unit-4-Project/scss/component/_grid.scss */
+.card {
+  flex-basis: 100%;
+}
+
+/* ============================================= */
 /*              Base styles                      */
 /* ============================================= */
 /* line 13, ../../../Unit-4-Project/scss/styles.scss */
@@ -424,98 +513,9 @@ a {
 }
 
 /* ============================================= */
-/*              Grid System                      */
-/* ============================================= */
-/* line 35, ../../../Unit-4-Project/scss/styles.scss */
-.container {
-  padding: 0 10px;
-}
-
-/* line 39, ../../../Unit-4-Project/scss/styles.scss */
-.row {
-  display: flex;
-  flex-direction: column;
-  padding: 1em 10px;
-}
-
-/* line 45, ../../../Unit-4-Project/scss/styles.scss */
-[class^=col] {
-  margin-top: 10px;
-  flex-basis: 100%;
-  min-height: 25px;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-/* line 53, ../../../Unit-4-Project/scss/styles.scss */
-.theme.col-1 {
-  background-color: #927bc1;
-}
-
-/* line 57, ../../../Unit-4-Project/scss/styles.scss */
-.theme.col-2 {
-  background-color: #fd7856;
-}
-
-/* line 61, ../../../Unit-4-Project/scss/styles.scss */
-.theme.col-3 {
-  background-color: #deb2ee;
-}
-
-/* line 65, ../../../Unit-4-Project/scss/styles.scss */
-.theme.col-4 {
-  background-color: #7ee6fd;
-}
-
-/* line 69, ../../../Unit-4-Project/scss/styles.scss */
-.theme.col-5 {
-  background-color: #88d9a0;
-}
-
-/* line 73, ../../../Unit-4-Project/scss/styles.scss */
-.theme.col-6 {
-  background-color: #4da2bb;
-}
-
-/* line 77, ../../../Unit-4-Project/scss/styles.scss */
-.theme.col-7 {
-  background-color: #ec9fa3;
-}
-
-/* line 81, ../../../Unit-4-Project/scss/styles.scss */
-.theme.col-8 {
-  background-color: #fd9f85;
-}
-
-/* line 85, ../../../Unit-4-Project/scss/styles.scss */
-.theme.col-9 {
-  background-color: #e4757a;
-}
-
-/* line 89, ../../../Unit-4-Project/scss/styles.scss */
-.theme.col-10 {
-  background-color: #63cc82;
-}
-
-/* line 93, ../../../Unit-4-Project/scss/styles.scss */
-.theme.col-11 {
-  background-color: #51ddfc;
-}
-
-/* line 97, ../../../Unit-4-Project/scss/styles.scss */
-.theme.col-12 {
-  background-color: #80e8d1;
-}
-
-/* line 101, ../../../Unit-4-Project/scss/styles.scss */
-.card {
-  flex-basis: 100%;
-}
-
-/* ============================================= */
 /*              Navigation                       */
 /* ============================================= */
-/* line 110, ../../../Unit-4-Project/scss/styles.scss */
+/* line 38, ../../../Unit-4-Project/scss/styles.scss */
 .nav {
   padding-left: 0;
   flex-basis: 100%;
@@ -523,7 +523,7 @@ a {
   flex-direction: column;
 }
 
-/* line 117, ../../../Unit-4-Project/scss/styles.scss */
+/* line 45, ../../../Unit-4-Project/scss/styles.scss */
 .nav-link {
   text-align: center;
   border-radius: 5px;
@@ -533,7 +533,7 @@ a {
   transition: background-color .2s ease-in-out,  color .2s ease-in-out;
 }
 
-/* line 128, ../../../Unit-4-Project/scss/styles.scss */
+/* line 56, ../../../Unit-4-Project/scss/styles.scss */
 .nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
@@ -542,7 +542,7 @@ a {
 /* ============================================= */
 /*              Buttons                          */
 /* ============================================= */
-/* line 138, ../../../Unit-4-Project/scss/styles.scss */
+/* line 66, ../../../Unit-4-Project/scss/styles.scss */
 .btn {
   margin-top: 15px;
   width: 100%;
@@ -553,27 +553,27 @@ a {
   border-radius: 5px;
 }
 
-/* line 148, ../../../Unit-4-Project/scss/styles.scss */
+/* line 76, ../../../Unit-4-Project/scss/styles.scss */
 .default {
   background-color: #51ddfc;
 }
 
-/* line 152, ../../../Unit-4-Project/scss/styles.scss */
+/* line 80, ../../../Unit-4-Project/scss/styles.scss */
 .error {
   background-color: #e4757a;
 }
 
-/* line 156, ../../../Unit-4-Project/scss/styles.scss */
+/* line 84, ../../../Unit-4-Project/scss/styles.scss */
 .info {
   background-color: #927bc1;
 }
 
-/* line 160, ../../../Unit-4-Project/scss/styles.scss */
+/* line 88, ../../../Unit-4-Project/scss/styles.scss */
 .success {
   background-color: #63cc82;
 }
 
-/* line 164, ../../../Unit-4-Project/scss/styles.scss */
+/* line 92, ../../../Unit-4-Project/scss/styles.scss */
 .warning {
   background-color: #fd7856;
 }
@@ -581,12 +581,12 @@ a {
 /* ============================================= */
 /*              Forms                            */
 /* ============================================= */
-/* line 173, ../../../Unit-4-Project/scss/styles.scss */
+/* line 101, ../../../Unit-4-Project/scss/styles.scss */
 .form {
   flex-basis: 100%;
 }
 
-/* line 177, ../../../Unit-4-Project/scss/styles.scss */
+/* line 105, ../../../Unit-4-Project/scss/styles.scss */
 .input {
   display: block;
   width: 94%;
@@ -596,7 +596,7 @@ a {
   border-bottom: 5px solid #58e1c1;
 }
 
-/* line 186, ../../../Unit-4-Project/scss/styles.scss */
+/* line 114, ../../../Unit-4-Project/scss/styles.scss */
 .hidden {
   position: absolute;
   left: -10000px;
@@ -609,7 +609,7 @@ a {
 /* ============================================= */
 /*              Images                           */
 /* ============================================= */
-/* line 200, ../../../Unit-4-Project/scss/styles.scss */
+/* line 128, ../../../Unit-4-Project/scss/styles.scss */
 .img-avatar {
   display: block;
   margin-left: auto;
@@ -619,7 +619,7 @@ a {
   max-height: 100%;
 }
 
-/* line 209, ../../../Unit-4-Project/scss/styles.scss */
+/* line 137, ../../../Unit-4-Project/scss/styles.scss */
 .img-frame {
   display: block;
   margin-left: auto;
@@ -630,7 +630,7 @@ a {
   border: 1px solid #ccc;
 }
 
-/* line 219, ../../../Unit-4-Project/scss/styles.scss */
+/* line 147, ../../../Unit-4-Project/scss/styles.scss */
 .img-logo {
   display: block;
   margin-left: auto;
@@ -641,101 +641,101 @@ a {
 /*              Media Queries                    */
 /* ============================================= */
 @media (min-width: 768px) {
-  /* line 231, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 159, ../../../Unit-4-Project/scss/styles.scss */
   .container {
     max-width: 1400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 238, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 166, ../../../Unit-4-Project/scss/styles.scss */
   .centered {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 244, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 172, ../../../Unit-4-Project/scss/styles.scss */
   .row {
     flex-direction: row;
   }
-  /* line 248, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 176, ../../../Unit-4-Project/scss/styles.scss */
   [class^=col] {
     display: flex;
     justify-content: center;
     margin-top: 0;
     align-items: center;
   }
-  /* line 255, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 183, ../../../Unit-4-Project/scss/styles.scss */
   [class^=col] + [class^=col] {
     margin-left: 10px;
   }
-  /* line 259, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 187, ../../../Unit-4-Project/scss/styles.scss */
   .col-1 {
     flex-basis: 8.33%;
   }
-  /* line 263, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 191, ../../../Unit-4-Project/scss/styles.scss */
   .col-2 {
     flex-basis: 16.67%;
   }
-  /* line 267, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 195, ../../../Unit-4-Project/scss/styles.scss */
   .col-3 {
     flex-basis: 25.00%;
   }
-  /* line 271, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 199, ../../../Unit-4-Project/scss/styles.scss */
   .col-4 {
     flex-basis: 33.33%;
   }
-  /* line 275, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 203, ../../../Unit-4-Project/scss/styles.scss */
   .col-5 {
     flex-basis: 41.67%;
   }
-  /* line 279, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 207, ../../../Unit-4-Project/scss/styles.scss */
   .col-6 {
     flex-basis: 50.00%;
   }
-  /* line 283, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 211, ../../../Unit-4-Project/scss/styles.scss */
   .col-7 {
     flex-basis: 58.33%;
   }
-  /* line 287, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 215, ../../../Unit-4-Project/scss/styles.scss */
   .col-8 {
     flex-basis: 66.67%;
   }
-  /* line 291, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 219, ../../../Unit-4-Project/scss/styles.scss */
   .col-9 {
     flex-basis: 75.00%;
   }
-  /* line 295, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 223, ../../../Unit-4-Project/scss/styles.scss */
   .col-10 {
     flex-basis: 83.33%;
   }
-  /* line 299, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 227, ../../../Unit-4-Project/scss/styles.scss */
   .col-11 {
     flex-basis: 91.67%;
   }
-  /* line 303, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 231, ../../../Unit-4-Project/scss/styles.scss */
   .col-12 {
     flex-basis: 100%;
   }
-  /* line 307, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 235, ../../../Unit-4-Project/scss/styles.scss */
   .nav {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
   }
-  /* line 313, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 241, ../../../Unit-4-Project/scss/styles.scss */
   .nav-link {
     flex-basis: 100px;
   }
-  /* line 317, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 245, ../../../Unit-4-Project/scss/styles.scss */
   .btn {
     padding: 10px 30px;
   }
-  /* line 321, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 249, ../../../Unit-4-Project/scss/styles.scss */
   .btn + .btn {
     margin-left: 10px;
   }
-  /* line 325, ../../../Unit-4-Project/scss/styles.scss */
+  /* line 253, ../../../Unit-4-Project/scss/styles.scss */
   .logo {
     margin-left: initial;
     margin-right: initial;
