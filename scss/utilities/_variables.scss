@@ -10,15 +10,25 @@ $color-link: #51ddfc;
 $color-accent: #fff;
 
 // Button Colors
-// So here's my logic for making button color variables separate from the site's own theme colors.
-// This is a style guide, right?
-// As a style guide, I figure the designer/developer would like to experiment with different button colors,
-// without the akwardness of changing colors of the entire site's theme.
-$colr-btn-def: #58e1c1;
-$colr-btn-err: #e4757a;
-$colr-btn-inf: #927bc1;
-$colr-btn-suc: #80a08a;
-$colr-btn-war: #fd7856;
+$btn-clr: (
+    'def': #58e1c1,
+    'err': #e4757a,
+    'inf': #927bc1,
+    'suc': #80a08a,
+    'war': #fd7856,
+    'tc-1': #927bc1,
+    'tc-2': #fd7856,
+    'tc-3': #deb2ee,
+    'tc-4': #7ee6fd,
+    'tc-5': #88d9a0,
+    'tc-6': #4da2bb,
+    'tc-7': #ec9fa3,
+    'tc-8': #fd9f85,
+    'tc-9': #e4757a,
+    'tc-10': #63cc82,
+    'tc-11': #51ddfc,
+    'tc-12': #80e8d1,
+);
 
 // Breakpoint
 $breakpoint: 768px;
