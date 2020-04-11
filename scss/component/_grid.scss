@@ -29,22 +29,6 @@
   border-radius: 5px;
 }
 
-// The below "for loop" took me a good 6 hours of banging my head
-// on the keyboard to figure out.  But I was obsessed with finding an
-// elegant solution.
-// I think this alone should land me that "Exeeds" mark.  haha!
-// But of course, it's your call.
-@for $i from 1 through 12 {
-  .theme.col-#{$i} {
-      background-color: map-get($grd-clr, 'tc-#{$i}');
-
-      &:hover {
-          color: $color-primary;
-          background-color: lighten(map-get($grd-clr, 'tc-#{$i}'), 15%);
-      }
-  }
-}
-
 .card {
   flex-basis: 100%;
 }

@@ -461,139 +461,7 @@ a {
   border-radius: 5px;
 }
 
-/* line 38, ../../../Unit-4-Project/scss/component/_grid.scss */
-.theme.col-1 {
-  background-color: #927bc1;
-}
-
-/* line 41, ../../../Unit-4-Project/scss/component/_grid.scss */
-.theme.col-1:hover {
-  color: #58e1c1;
-  background-color: #bdafd9;
-}
-
-/* line 38, ../../../Unit-4-Project/scss/component/_grid.scss */
-.theme.col-2 {
-  background-color: #fd7856;
-}
-
-/* line 41, ../../../Unit-4-Project/scss/component/_grid.scss */
-.theme.col-2:hover {
-  color: #58e1c1;
-  background-color: #feb4a2;
-}
-
-/* line 38, ../../../Unit-4-Project/scss/component/_grid.scss */
-.theme.col-3 {
-  background-color: #deb2ee;
-}
-
-/* line 41, ../../../Unit-4-Project/scss/component/_grid.scss */
-.theme.col-3:hover {
-  color: #58e1c1;
-  background-color: #f9f1fc;
-}
-
-/* line 38, ../../../Unit-4-Project/scss/component/_grid.scss */
-.theme.col-4 {
-  background-color: #7ee6fd;
-}
-
-/* line 41, ../../../Unit-4-Project/scss/component/_grid.scss */
-.theme.col-4:hover {
-  color: #58e1c1;
-  background-color: #c9f5fe;
-}
-
-/* line 38, ../../../Unit-4-Project/scss/component/_grid.scss */
-.theme.col-5 {
-  background-color: #88d9a0;
-}
-
-/* line 41, ../../../Unit-4-Project/scss/component/_grid.scss */
-.theme.col-5:hover {
-  color: #58e1c1;
-  background-color: #c2ecce;
-}
-
-/* line 38, ../../../Unit-4-Project/scss/component/_grid.scss */
-.theme.col-6 {
-  background-color: #4da2bb;
-}
-
-/* line 41, ../../../Unit-4-Project/scss/component/_grid.scss */
-.theme.col-6:hover {
-  color: #58e1c1;
-  background-color: #84bfd0;
-}
-
-/* line 38, ../../../Unit-4-Project/scss/component/_grid.scss */
-.theme.col-7 {
-  background-color: #ec9fa3;
-}
-
-/* line 41, ../../../Unit-4-Project/scss/component/_grid.scss */
-.theme.col-7:hover {
-  color: #58e1c1;
-  background-color: #f9dfe0;
-}
-
-/* line 38, ../../../Unit-4-Project/scss/component/_grid.scss */
-.theme.col-8 {
-  background-color: #fd9f85;
-}
-
-/* line 41, ../../../Unit-4-Project/scss/component/_grid.scss */
-.theme.col-8:hover {
-  color: #58e1c1;
-  background-color: #fedad0;
-}
-
-/* line 38, ../../../Unit-4-Project/scss/component/_grid.scss */
-.theme.col-9 {
-  background-color: #e4757a;
-}
-
-/* line 41, ../../../Unit-4-Project/scss/component/_grid.scss */
-.theme.col-9:hover {
-  color: #58e1c1;
-  background-color: #f1b5b8;
-}
-
-/* line 38, ../../../Unit-4-Project/scss/component/_grid.scss */
-.theme.col-10 {
-  background-color: #63cc82;
-}
-
-/* line 41, ../../../Unit-4-Project/scss/component/_grid.scss */
-.theme.col-10:hover {
-  color: #58e1c1;
-  background-color: #9ddfb0;
-}
-
-/* line 38, ../../../Unit-4-Project/scss/component/_grid.scss */
-.theme.col-11 {
-  background-color: #51ddfc;
-}
-
-/* line 41, ../../../Unit-4-Project/scss/component/_grid.scss */
-.theme.col-11:hover {
-  color: #58e1c1;
-  background-color: #9cecfd;
-}
-
-/* line 38, ../../../Unit-4-Project/scss/component/_grid.scss */
-.theme.col-12 {
-  background-color: #80e8d1;
-}
-
-/* line 41, ../../../Unit-4-Project/scss/component/_grid.scss */
-.theme.col-12:hover {
-  color: #58e1c1;
-  background-color: #c1f4e8;
-}
-
-/* line 48, ../../../Unit-4-Project/scss/component/_grid.scss */
+/* line 32, ../../../Unit-4-Project/scss/component/_grid.scss */
 .card {
   flex-basis: 100%;
 }
@@ -715,6 +583,138 @@ a {
 .warning:hover {
   color: #58e1c1;
   background-color: #feddd4;
+}
+
+/* line 70, ../../../Unit-4-Project/scss/component/_button.scss */
+.theme.col-1 {
+  background-color: #927bc1;
+}
+
+/* line 73, ../../../Unit-4-Project/scss/component/_button.scss */
+.theme.col-1:hover {
+  color: #58e1c1;
+  background-color: #bdafd9;
+}
+
+/* line 70, ../../../Unit-4-Project/scss/component/_button.scss */
+.theme.col-2 {
+  background-color: #fd7856;
+}
+
+/* line 73, ../../../Unit-4-Project/scss/component/_button.scss */
+.theme.col-2:hover {
+  color: #58e1c1;
+  background-color: #feb4a2;
+}
+
+/* line 70, ../../../Unit-4-Project/scss/component/_button.scss */
+.theme.col-3 {
+  background-color: #deb2ee;
+}
+
+/* line 73, ../../../Unit-4-Project/scss/component/_button.scss */
+.theme.col-3:hover {
+  color: #58e1c1;
+  background-color: #f9f1fc;
+}
+
+/* line 70, ../../../Unit-4-Project/scss/component/_button.scss */
+.theme.col-4 {
+  background-color: #7ee6fd;
+}
+
+/* line 73, ../../../Unit-4-Project/scss/component/_button.scss */
+.theme.col-4:hover {
+  color: #58e1c1;
+  background-color: #c9f5fe;
+}
+
+/* line 70, ../../../Unit-4-Project/scss/component/_button.scss */
+.theme.col-5 {
+  background-color: #88d9a0;
+}
+
+/* line 73, ../../../Unit-4-Project/scss/component/_button.scss */
+.theme.col-5:hover {
+  color: #58e1c1;
+  background-color: #c2ecce;
+}
+
+/* line 70, ../../../Unit-4-Project/scss/component/_button.scss */
+.theme.col-6 {
+  background-color: #4da2bb;
+}
+
+/* line 73, ../../../Unit-4-Project/scss/component/_button.scss */
+.theme.col-6:hover {
+  color: #58e1c1;
+  background-color: #84bfd0;
+}
+
+/* line 70, ../../../Unit-4-Project/scss/component/_button.scss */
+.theme.col-7 {
+  background-color: #ec9fa3;
+}
+
+/* line 73, ../../../Unit-4-Project/scss/component/_button.scss */
+.theme.col-7:hover {
+  color: #58e1c1;
+  background-color: #f9dfe0;
+}
+
+/* line 70, ../../../Unit-4-Project/scss/component/_button.scss */
+.theme.col-8 {
+  background-color: #fd9f85;
+}
+
+/* line 73, ../../../Unit-4-Project/scss/component/_button.scss */
+.theme.col-8:hover {
+  color: #58e1c1;
+  background-color: #fedad0;
+}
+
+/* line 70, ../../../Unit-4-Project/scss/component/_button.scss */
+.theme.col-9 {
+  background-color: #e4757a;
+}
+
+/* line 73, ../../../Unit-4-Project/scss/component/_button.scss */
+.theme.col-9:hover {
+  color: #58e1c1;
+  background-color: #f1b5b8;
+}
+
+/* line 70, ../../../Unit-4-Project/scss/component/_button.scss */
+.theme.col-10 {
+  background-color: #63cc82;
+}
+
+/* line 73, ../../../Unit-4-Project/scss/component/_button.scss */
+.theme.col-10:hover {
+  color: #58e1c1;
+  background-color: #9ddfb0;
+}
+
+/* line 70, ../../../Unit-4-Project/scss/component/_button.scss */
+.theme.col-11 {
+  background-color: #51ddfc;
+}
+
+/* line 73, ../../../Unit-4-Project/scss/component/_button.scss */
+.theme.col-11:hover {
+  color: #58e1c1;
+  background-color: #9cecfd;
+}
+
+/* line 70, ../../../Unit-4-Project/scss/component/_button.scss */
+.theme.col-12 {
+  background-color: #80e8d1;
+}
+
+/* line 73, ../../../Unit-4-Project/scss/component/_button.scss */
+.theme.col-12:hover {
+  color: #58e1c1;
+  background-color: #c1f4e8;
 }
 
 /* ============================================= */
