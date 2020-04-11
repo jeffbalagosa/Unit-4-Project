@@ -795,61 +795,61 @@ a {
 /*            Media Queries                      */
 /* ============================================= */
 @media (min-width: 768px) {
-  /* line 6, ../../../Unit-4-Project/scss/component/_mq.scss */
+  /* line 8, ../../../Unit-4-Project/scss/component/_mq.scss */
   .centered {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 11, ../../../Unit-4-Project/scss/component/_mq.scss */
+  /* line 13, ../../../Unit-4-Project/scss/component/_mq.scss */
   .col-1 {
     flex-basis: 8.33%;
   }
-  /* line 11, ../../../Unit-4-Project/scss/component/_mq.scss */
+  /* line 13, ../../../Unit-4-Project/scss/component/_mq.scss */
   .col-2 {
     flex-basis: 16.67%;
   }
-  /* line 11, ../../../Unit-4-Project/scss/component/_mq.scss */
+  /* line 13, ../../../Unit-4-Project/scss/component/_mq.scss */
   .col-3 {
     flex-basis: 25%;
   }
-  /* line 11, ../../../Unit-4-Project/scss/component/_mq.scss */
+  /* line 13, ../../../Unit-4-Project/scss/component/_mq.scss */
   .col-4 {
     flex-basis: 33.33%;
   }
-  /* line 11, ../../../Unit-4-Project/scss/component/_mq.scss */
+  /* line 13, ../../../Unit-4-Project/scss/component/_mq.scss */
   .col-5 {
     flex-basis: 41.67%;
   }
-  /* line 11, ../../../Unit-4-Project/scss/component/_mq.scss */
+  /* line 13, ../../../Unit-4-Project/scss/component/_mq.scss */
   .col-6 {
     flex-basis: 50%;
   }
-  /* line 11, ../../../Unit-4-Project/scss/component/_mq.scss */
+  /* line 13, ../../../Unit-4-Project/scss/component/_mq.scss */
   .col-7 {
     flex-basis: 58.33%;
   }
-  /* line 11, ../../../Unit-4-Project/scss/component/_mq.scss */
+  /* line 13, ../../../Unit-4-Project/scss/component/_mq.scss */
   .col-8 {
     flex-basis: 66.67%;
   }
-  /* line 11, ../../../Unit-4-Project/scss/component/_mq.scss */
+  /* line 13, ../../../Unit-4-Project/scss/component/_mq.scss */
   .col-9 {
     flex-basis: 75%;
   }
-  /* line 11, ../../../Unit-4-Project/scss/component/_mq.scss */
+  /* line 13, ../../../Unit-4-Project/scss/component/_mq.scss */
   .col-10 {
     flex-basis: 83.33%;
   }
-  /* line 11, ../../../Unit-4-Project/scss/component/_mq.scss */
+  /* line 13, ../../../Unit-4-Project/scss/component/_mq.scss */
   .col-11 {
     flex-basis: 91.67%;
   }
-  /* line 11, ../../../Unit-4-Project/scss/component/_mq.scss */
+  /* line 13, ../../../Unit-4-Project/scss/component/_mq.scss */
   .col-12 {
     flex-basis: 100%;
   }
-  /* line 16, ../../../Unit-4-Project/scss/component/_mq.scss */
+  /* line 18, ../../../Unit-4-Project/scss/component/_mq.scss */
   .logo {
     margin-left: initial;
     margin-right: initial;
