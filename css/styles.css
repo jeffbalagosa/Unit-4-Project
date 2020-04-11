@@ -787,7 +787,7 @@ a {
     margin-top: 0;
     align-items: center;
   }
-  /* line 17, ../../../Unit-4-Project/scss/component/_mq.scss */
+  /* line 16, ../../../Unit-4-Project/scss/component/_mq.scss */
   [class^=col] + [class^=col] {
     margin-left: 10px;
   }
