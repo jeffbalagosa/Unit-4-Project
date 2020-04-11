@@ -748,7 +748,7 @@ a {
 /* ============================================= */
 /*              Images                           */
 /* ============================================= */
-/* line 40, ../../../Unit-4-Project/scss/component/_grid.scss */
+/* line 5, ../../../Unit-4-Project/scss/component/_images.scss */
 .img-avatar {
   display: block;
   margin-left: auto;
@@ -758,7 +758,7 @@ a {
   max-height: 100%;
 }
 
-/* line 47, ../../../Unit-4-Project/scss/component/_grid.scss */
+/* line 12, ../../../Unit-4-Project/scss/component/_images.scss */
 .img-frame {
   display: block;
   margin-left: auto;
@@ -769,7 +769,7 @@ a {
   border: 1px solid #ccc;
 }
 
-/* line 55, ../../../Unit-4-Project/scss/component/_grid.scss */
+/* line 20, ../../../Unit-4-Project/scss/component/_images.scss */
 .img-logo {
   display: block;
   margin-left: auto;
@@ -777,79 +777,79 @@ a {
 }
 
 /* ============================================= */
-/*            Un-nested Media Queries            */
+/*            Media Queries                      */
 /* ============================================= */
 @media (min-width: 768px) {
-  /* line 64, ../../../Unit-4-Project/scss/component/_grid.scss */
+  /* line 6, ../../../Unit-4-Project/scss/component/_mq.scss */
   .centered {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 68, ../../../Unit-4-Project/scss/component/_grid.scss */
+  /* line 10, ../../../Unit-4-Project/scss/component/_mq.scss */
   [class^=col] {
     display: flex;
     justify-content: center;
     margin-top: 0;
     align-items: center;
   }
-  /* line 75, ../../../Unit-4-Project/scss/component/_grid.scss */
+  /* line 17, ../../../Unit-4-Project/scss/component/_mq.scss */
   [class^=col] + [class^=col] {
     margin-left: 10px;
   }
-  /* line 80, ../../../Unit-4-Project/scss/component/_grid.scss */
+  /* line 22, ../../../Unit-4-Project/scss/component/_mq.scss */
   .col-1 {
     flex-basis: 8.33%;
   }
-  /* line 80, ../../../Unit-4-Project/scss/component/_grid.scss */
+  /* line 22, ../../../Unit-4-Project/scss/component/_mq.scss */
   .col-2 {
     flex-basis: 16.67%;
   }
-  /* line 80, ../../../Unit-4-Project/scss/component/_grid.scss */
+  /* line 22, ../../../Unit-4-Project/scss/component/_mq.scss */
   .col-3 {
     flex-basis: 25%;
   }
-  /* line 80, ../../../Unit-4-Project/scss/component/_grid.scss */
+  /* line 22, ../../../Unit-4-Project/scss/component/_mq.scss */
   .col-4 {
     flex-basis: 33.33%;
   }
-  /* line 80, ../../../Unit-4-Project/scss/component/_grid.scss */
+  /* line 22, ../../../Unit-4-Project/scss/component/_mq.scss */
   .col-5 {
     flex-basis: 41.67%;
   }
-  /* line 80, ../../../Unit-4-Project/scss/component/_grid.scss */
+  /* line 22, ../../../Unit-4-Project/scss/component/_mq.scss */
   .col-6 {
     flex-basis: 50%;
   }
-  /* line 80, ../../../Unit-4-Project/scss/component/_grid.scss */
+  /* line 22, ../../../Unit-4-Project/scss/component/_mq.scss */
   .col-7 {
     flex-basis: 58.33%;
   }
-  /* line 80, ../../../Unit-4-Project/scss/component/_grid.scss */
+  /* line 22, ../../../Unit-4-Project/scss/component/_mq.scss */
   .col-8 {
     flex-basis: 66.67%;
   }
-  /* line 80, ../../../Unit-4-Project/scss/component/_grid.scss */
+  /* line 22, ../../../Unit-4-Project/scss/component/_mq.scss */
   .col-9 {
     flex-basis: 75%;
   }
-  /* line 80, ../../../Unit-4-Project/scss/component/_grid.scss */
+  /* line 22, ../../../Unit-4-Project/scss/component/_mq.scss */
   .col-10 {
     flex-basis: 83.33%;
   }
-  /* line 80, ../../../Unit-4-Project/scss/component/_grid.scss */
+  /* line 22, ../../../Unit-4-Project/scss/component/_mq.scss */
   .col-11 {
     flex-basis: 91.67%;
   }
-  /* line 80, ../../../Unit-4-Project/scss/component/_grid.scss */
+  /* line 22, ../../../Unit-4-Project/scss/component/_mq.scss */
   .col-12 {
     flex-basis: 100%;
   }
-  /* line 85, ../../../Unit-4-Project/scss/component/_grid.scss */
+  /* line 27, ../../../Unit-4-Project/scss/component/_mq.scss */
   .btn + .btn {
     margin-left: 10px;
   }
-  /* line 89, ../../../Unit-4-Project/scss/component/_grid.scss */
+  /* line 31, ../../../Unit-4-Project/scss/component/_mq.scss */
   .logo {
     margin-left: initial;
     margin-right: initial;
