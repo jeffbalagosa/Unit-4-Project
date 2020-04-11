@@ -749,27 +749,21 @@ a {
 /*              Images                           */
 /* ============================================= */
 /* line 6, ../../../Unit-4-Project/scss/component/_images.scss */
-.img-avatar {
+.img-logo, .img-avatar, .img-frame {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* line 7, ../../../Unit-4-Project/scss/component/_images.scss */
+.img-avatar {
   max-height: 100%;
 }
 
-/* line 10, ../../../Unit-4-Project/scss/component/_images.scss */
+/* line 11, ../../../Unit-4-Project/scss/component/_images.scss */
 .img-frame {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   padding: 13px;
   border: 1px solid #ccc;
-}
-
-/* line 15, ../../../Unit-4-Project/scss/component/_images.scss */
-.img-logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 /* ============================================= */
