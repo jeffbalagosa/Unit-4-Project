@@ -662,56 +662,63 @@ a {
   }
 }
 
-/* line 19, ../../../Unit-4-Project/scss/component/_button.scss */
+@media (min-width: 768px) {
+  /* line 19, ../../../Unit-4-Project/scss/component/_button.scss */
+  .btn + .btn {
+    margin-left: 10px;
+  }
+}
+
+/* line 25, ../../../Unit-4-Project/scss/component/_button.scss */
 .default {
   background-color: #51ddfc;
 }
 
-/* line 22, ../../../Unit-4-Project/scss/component/_button.scss */
+/* line 28, ../../../Unit-4-Project/scss/component/_button.scss */
 .default:hover {
   color: #58e1c1;
   background-color: #cef5fe;
 }
 
-/* line 28, ../../../Unit-4-Project/scss/component/_button.scss */
+/* line 34, ../../../Unit-4-Project/scss/component/_button.scss */
 .error {
   background-color: #e4757a;
 }
 
-/* line 31, ../../../Unit-4-Project/scss/component/_button.scss */
+/* line 37, ../../../Unit-4-Project/scss/component/_button.scss */
 .error:hover {
   color: #58e1c1;
   background-color: #f9e0e1;
 }
 
-/* line 37, ../../../Unit-4-Project/scss/component/_button.scss */
+/* line 43, ../../../Unit-4-Project/scss/component/_button.scss */
 .info {
   background-color: #927bc1;
 }
 
-/* line 40, ../../../Unit-4-Project/scss/component/_button.scss */
+/* line 46, ../../../Unit-4-Project/scss/component/_button.scss */
 .info:hover {
   color: #58e1c1;
   background-color: #dad2ea;
 }
 
-/* line 46, ../../../Unit-4-Project/scss/component/_button.scss */
+/* line 52, ../../../Unit-4-Project/scss/component/_button.scss */
 .success {
   background-color: #63cc82;
 }
 
-/* line 49, ../../../Unit-4-Project/scss/component/_button.scss */
+/* line 55, ../../../Unit-4-Project/scss/component/_button.scss */
 .success:hover {
   color: #58e1c1;
   background-color: #c3ebcf;
 }
 
-/* line 55, ../../../Unit-4-Project/scss/component/_button.scss */
+/* line 61, ../../../Unit-4-Project/scss/component/_button.scss */
 .warning {
   background-color: #fd7856;
 }
 
-/* line 58, ../../../Unit-4-Project/scss/component/_button.scss */
+/* line 64, ../../../Unit-4-Project/scss/component/_button.scss */
 .warning:hover {
   color: #58e1c1;
   background-color: #feddd4;
@@ -840,10 +847,6 @@ a {
     flex-basis: 100%;
   }
   /* line 27, ../../../Unit-4-Project/scss/component/_mq.scss */
-  .btn + .btn {
-    margin-left: 10px;
-  }
-  /* line 31, ../../../Unit-4-Project/scss/component/_mq.scss */
   .logo {
     margin-left: initial;
     margin-right: initial;
