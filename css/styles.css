@@ -421,6 +421,52 @@ a {
 }
 
 /* ============================================= */
+/*              Grid System                      */
+/* ============================================= */
+/* line 5, ../../../Unit-4-Project/scss/component/_grid.scss */
+.container {
+  padding: 0 10px;
+}
+
+@media (min-width: 768px) {
+  /* line 5, ../../../Unit-4-Project/scss/component/_grid.scss */
+  .container {
+    max-width: 1400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* line 14, ../../../Unit-4-Project/scss/component/_grid.scss */
+.row {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 10px;
+}
+
+@media (min-width: 768px) {
+  /* line 14, ../../../Unit-4-Project/scss/component/_grid.scss */
+  .row {
+    flex-direction: row;
+  }
+}
+
+/* line 24, ../../../Unit-4-Project/scss/component/_grid.scss */
+[class^=col] {
+  margin-top: 10px;
+  flex-basis: 100%;
+  min-height: 25px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* line 32, ../../../Unit-4-Project/scss/component/_grid.scss */
+.card {
+  flex-basis: 100%;
+}
+
+/* ============================================= */
 /*              Navigation                       */
 /* ============================================= */
 /* line 5, ../../../Unit-4-Project/scss/component/_navigation.scss */
@@ -697,52 +743,6 @@ a {
   width: 1px;
   height: 1px;
   overflow: hidden;
-}
-
-/* ============================================= */
-/*              Grid System                      */
-/* ============================================= */
-/* line 5, ../../../Unit-4-Project/scss/component/_grid.scss */
-.container {
-  padding: 0 10px;
-}
-
-@media (min-width: 768px) {
-  /* line 5, ../../../Unit-4-Project/scss/component/_grid.scss */
-  .container {
-    max-width: 1400px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-/* line 14, ../../../Unit-4-Project/scss/component/_grid.scss */
-.row {
-  display: flex;
-  flex-direction: column;
-  padding: 1em 10px;
-}
-
-@media (min-width: 768px) {
-  /* line 14, ../../../Unit-4-Project/scss/component/_grid.scss */
-  .row {
-    flex-direction: row;
-  }
-}
-
-/* line 24, ../../../Unit-4-Project/scss/component/_grid.scss */
-[class^=col] {
-  margin-top: 10px;
-  flex-basis: 100%;
-  min-height: 25px;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-/* line 32, ../../../Unit-4-Project/scss/component/_grid.scss */
-.card {
-  flex-basis: 100%;
 }
 
 /* ============================================= */
