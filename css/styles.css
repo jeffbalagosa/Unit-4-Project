@@ -374,19 +374,19 @@ template {
 /* ============================================= */
 /*              Typography                       */
 /* ============================================= */
-/* line 6, ../../../Unit-4-Project/scss/base/_typography.scss */
+/* line 5, ../../../Unit-4-Project/scss/base/_typography.scss */
 * {
   font-family: 'Lato', sans-serif;
   color: #777;
   box-sizing: border-box;
 }
 
-/* line 12, ../../../Unit-4-Project/scss/base/_typography.scss */
+/* line 11, ../../../Unit-4-Project/scss/base/_typography.scss */
 p {
   line-height: 1.45em;
 }
 
-/* line 16, ../../../Unit-4-Project/scss/base/_typography.scss */
+/* line 15, ../../../Unit-4-Project/scss/base/_typography.scss */
 a {
   text-decoration: none;
 }
@@ -403,13 +403,13 @@ a {
   color: #777;
 }
 
-/* line 30, ../../../Unit-4-Project/scss/base/_typography.scss */
+/* line 31, ../../../Unit-4-Project/scss/base/_typography.scss */
 .link {
   color: #51ddfc;
   font-weight: 700;
 }
 
-/* line 35, ../../../Unit-4-Project/scss/base/_typography.scss */
+/* line 36, ../../../Unit-4-Project/scss/base/_typography.scss */
 .blockquote {
   font-size: 1.5em;
   font-weight: 300;
