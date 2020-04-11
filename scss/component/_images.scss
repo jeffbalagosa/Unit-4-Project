@@ -3,14 +3,14 @@
 /* ============================================= */
 
 .img {
-    &-logo {@include cntr-itm;}
     &-avatar {
-        @extend .img-logo;
+        @include cntr-itm;
         max-height: 100%;
     }
     &-frame {
-        @extend .img-logo;
+        @include cntr-itm;
         padding: 13px;
         border: 1px solid #ccc;
     }
+    &-logo {@include cntr-itm;}
 }
