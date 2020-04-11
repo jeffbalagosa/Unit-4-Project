@@ -748,28 +748,24 @@ a {
 /* ============================================= */
 /*              Images                           */
 /* ============================================= */
-/* line 5, ../../../Unit-4-Project/scss/component/_images.scss */
+/* line 6, ../../../Unit-4-Project/scss/component/_images.scss */
 .img-avatar {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10px;
-  max-width: 100%;
   max-height: 100%;
 }
 
-/* line 11, ../../../Unit-4-Project/scss/component/_images.scss */
+/* line 10, ../../../Unit-4-Project/scss/component/_images.scss */
 .img-frame {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10px;
-  max-width: 100%;
   padding: 13px;
   border: 1px solid #ccc;
 }
 
-/* line 18, ../../../Unit-4-Project/scss/component/_images.scss */
+/* line 15, ../../../Unit-4-Project/scss/component/_images.scss */
 .img-logo {
   display: block;
   margin-left: auto;

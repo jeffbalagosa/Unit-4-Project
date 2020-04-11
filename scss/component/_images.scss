@@ -2,19 +2,15 @@
 /*              Images                           */
 /* ============================================= */
 
-.img-avatar {
-    @include cntr-itm;
-    @include mrgn-t-mxw;
-    max-height: 100%;
-}
-
-.img-frame {
-    @include cntr-itm;
-    @include mrgn-t-mxw;;
-    padding: 13px;
-    border: 1px solid #ccc;
-}
-
-.img-logo {
-    @include cntr-itm;
+.img {
+    &-avatar {
+        @include cntr-itm;
+        max-height: 100%;
+    }
+    &-frame {
+        @include cntr-itm;
+        padding: 13px;
+        border: 1px solid #ccc;
+    }
+    &-logo {@include cntr-itm;}
 }
