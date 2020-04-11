@@ -27,6 +27,7 @@
   min-height: 25px;
   padding: 10px;
   border-radius: 5px;
+
   @media (min-width: $breakpoint) {
     display: flex;
     justify-content: center;
@@ -34,9 +35,9 @@
     align-items: center;
 
     &+& {
-        margin-left: 10px;
+      margin-left: 10px;
+    }
   }
-}
 }
 
 // The below "for loop" took me a good 6 hours of banging my head
@@ -46,12 +47,12 @@
 // But of course, it's your call.
 @for $i from 1 through 12 {
   .theme.col-#{$i} {
-      background-color: map-get($grd-clr, 'tc-#{$i}');
+    background-color: map-get($grd-clr, 'tc-#{$i}');
 
-      &:hover {
-          color: $color-primary;
-          background-color: lighten(map-get($grd-clr, 'tc-#{$i}'), 15%);
-      }
+    &:hover {
+      color: $color-primary;
+      background-color: lighten(map-get($grd-clr, 'tc-#{$i}'), 15%);
+    }
   }
 }
 

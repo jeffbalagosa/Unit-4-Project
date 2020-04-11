@@ -10,8 +10,7 @@ $color-link: #51ddfc;
 $color-accent: #fff;
 
 // Button Colors Map
-$btn-clr: (
-    'def': #51ddfc,
+$btn-clr: ('def': #51ddfc,
     'err': #e4757a,
     'inf': #927bc1,
     'suc': #63cc82,
@@ -19,8 +18,7 @@ $btn-clr: (
 );
 
 // Grid Colors Map
-$grd-clr: (
-    'tc-1': #927bc1,
+$grd-clr: ('tc-1': #927bc1,
     'tc-2': #fd7856,
     'tc-3': #deb2ee,
     'tc-4': #7ee6fd,
@@ -35,8 +33,7 @@ $grd-clr: (
 );
 
 // Flex Basis Map
-$flx-bs: (
-    'c-1': 8.33%,
+$flx-bs: ('c-1': 8.33%,
     'c-2': 16.67%,
     'c-3': 25.00%,
     'c-4': 33.33%,
