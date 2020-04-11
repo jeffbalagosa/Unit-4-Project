@@ -21,6 +21,12 @@
   }
 }
 
+@media (min-width: $breakpoint) {
+  .centered {
+          @include cntr-itm;
+      }
+  }
+
 [class^=col] {
   margin-top: 10px;
   flex-basis: 100%;
@@ -39,6 +45,8 @@
     }
   }
 }
+
+
 
 // The below "for loop" took me a good 6 hours of banging my head
 // on the keyboard to figure out.  But I was obsessed with finding an
