@@ -7,17 +7,6 @@
         @include cntr-itm;
     }
 
-    [class^=col] {
-        display: flex;
-        justify-content: center;
-        margin-top: 0;
-        align-items: center;
-
-        &+& {
-            margin-left: 10px;
-        }
-    }
-
     @for $i from 1 through 12 {
         .col-#{$i} {
             flex-basis: map-get($flx-bs, 'c-#{$i}');
