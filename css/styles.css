@@ -486,7 +486,7 @@ a {
   }
 }
 
-/* line 18, ../../../Unit-4-Project/scss/component/_navigation.scss */
+/* line 17, ../../../Unit-4-Project/scss/component/_navigation.scss */
 .nav-link {
   text-align: center;
   border-radius: 5px;
@@ -497,13 +497,13 @@ a {
 }
 
 @media (min-width: 768px) {
-  /* line 18, ../../../Unit-4-Project/scss/component/_navigation.scss */
+  /* line 17, ../../../Unit-4-Project/scss/component/_navigation.scss */
   .nav-link {
     flex-basis: 100px;
   }
 }
 
-/* line 33, ../../../Unit-4-Project/scss/component/_navigation.scss */
+/* line 32, ../../../Unit-4-Project/scss/component/_navigation.scss */
 .nav-link:hover {
   color: #fff;
   background-color: #58e1c1;

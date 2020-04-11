@@ -13,24 +13,24 @@
         justify-content: flex-end;
         align-items: center;
     }
-}
 
-.nav-link {
-    text-align: center;
-    border-radius: 5px;
-    padding: 10px 0;
-    display: block;
-    width: 100%;
-    transition:
-        background-color .2s ease-in-out,
-        color .2s ease-in-out;
+    &-link {
+        text-align: center;
+        border-radius: 5px;
+        padding: 10px 0;
+        display: block;
+        width: 100%;
+        transition:
+            background-color .2s ease-in-out,
+            color .2s ease-in-out;
 
-    @media (min-width: $breakpoint) {
-        flex-basis: 100px;
+        @media (min-width: $breakpoint) {
+            flex-basis: 100px;
+        }
     }
-}
 
-.nav-link:hover {
-    color: $color-accent;
-    background-color: $color-primary;
+    &-link:hover {
+        color: $color-accent;
+        background-color: $color-primary;
+    }
 }
